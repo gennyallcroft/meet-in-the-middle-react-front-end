@@ -37,7 +37,7 @@ class SignUp extends React.Component {
 
     axios({
       method: 'post',
-      url: 'http://localhost:3001/users',
+      url: 'https://meet-in-the-middle-backend-api.herokuapp.com/users',
       // url: 'https://meet-in-the-middle-backend-api.herokuapp.com/users',
       data,
       header: {

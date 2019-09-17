@@ -48,7 +48,7 @@ class UserProfile extends React.Component {
 
     axios({
       method: "put",
-      url: `http://localhost:3001/users/${this.props.currentUser.id}`,
+      url: `https://meet-in-the-middle-backend-api.herokuapp.com/users/${this.props.currentUser.id}`,
       data: data,
       header: {
         Accept: "application/json",
