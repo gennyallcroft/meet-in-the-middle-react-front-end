@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const API_ENDPOINT = "http://localhost:3001";
+const API_ENDPOINT = "https://meet-in-the-middle-backend-api.herokuapp.com";
 
 const SignUpAvatar = ({ avatarBlob, avatarPath }) => {
   let avatarImage = null;

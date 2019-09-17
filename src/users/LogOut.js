@@ -19,7 +19,7 @@ class LogOut extends React.Component {
   _onSelectLogOut(e) {
     e.preventDefault();
     axios
-      .delete("http://localhost:3001/sessions/delete")
+      .delete("https://meet-in-the-middle-backend-api.herokuapp.com/sessions/delete")
       .then(response => {
         this.setState(state => ({
           showLogIn: false,

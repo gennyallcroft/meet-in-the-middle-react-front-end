@@ -69,7 +69,7 @@ class HomeLocation extends React.Component {
       // >
 
       <div className="slider">
-        <Script url="https://maps.googleapis.com/maps/apis/js?key=AIzaSyDkqVxDDu_TzV8SORSyM1rXVNP7qQfAGHg&libraries=places" />
+        <Script url="https://maps.googleapis.com/maps/apis/js?key=AIzaSyCAtlUmx3Wezl2aIkYlidgxT__4S7mKbMc&libraries=places" />
         <input
           id="home_location_text_box"
           className="formFillIn"

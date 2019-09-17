@@ -24,7 +24,7 @@ class LogIn extends React.Component {
   onSubmit(e) {
     e.preventDefault();
     axios
-      .post("http://localhost:3001/sessions", { session: this.state })
+      .post("https://meet-in-the-middle-backend-api.herokuapp.com/sessions", { session: this.state })
       .then(response => {
         this.setState({ showLogIn: false });
         this.props.updateCurrentUser(response.data)
